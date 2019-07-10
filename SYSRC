@@ -1,0 +1,5 @@
+elasticsearch_enable=YES
+graylog_enable="YES"
+mongod_enable=YES
+
+
