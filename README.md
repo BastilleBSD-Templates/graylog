@@ -1,6 +1,8 @@
 # graylog
 Bastille Template to create a Graylog Jail
 
+ STATUS: Testing
+
 Once the jail is built you need to do the following steps:
 
 1.  Create a config password/salt to use
