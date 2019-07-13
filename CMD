@@ -1,2 +1,3 @@
+cp /usr/local/etc/graylog/graylog.conf.example /usr/local/etc/graylog/graylog.conf
 
 
