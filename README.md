@@ -9,7 +9,7 @@ Once the jail is built you need to do the following steps:
 
 	pwgen -N 1 -s 96
 
-2.  Get the has for your root password
+2.  Get the hash for your root password
 
 	echo -n | shasum -a 256
 
@@ -29,7 +29,7 @@ Once the jail is built you need to do the following steps:
 	web_listen_uri = http://<jail ip>:9000/
 	web_enable_cors = true
 
-4.  Edit /sur/local/etc/graylog/server/log4j2.xml and change:
+4.  Edit /usr/local/etc/graylog/server/log4j2.xml and change:
 
 	<Root level="warn">
 	  <AppenderRef ref="STDOUT"/>
